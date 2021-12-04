@@ -81,4 +81,3 @@ namespace Segadora.Hikvision.ISAPI.Event
         }
     }
 }
- 
