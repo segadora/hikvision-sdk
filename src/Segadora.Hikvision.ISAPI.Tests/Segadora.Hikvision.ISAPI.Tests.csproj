@@ -21,4 +21,10 @@
       <ProjectReference Include="..\Segadora.Hikvision.ISAPI\Segadora.Hikvision.ISAPI.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="sample.jpg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>

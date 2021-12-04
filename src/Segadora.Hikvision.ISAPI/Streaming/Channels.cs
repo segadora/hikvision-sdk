@@ -1,21 +1,25 @@
-using System.Drawing;
+using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.Formats.Jpeg;
 
 namespace Segadora.Hikvision.ISAPI.Streaming
 {
     public class Channels
     {
-        private readonly ApiClient _client;
+        private readonly IApiClient _client;
         private readonly string _channelId;
 
-        public Channels(ApiClient client, string channelId)
+        public Channels(IApiClient client, string channelId)
         {
             _client = client;
             _channelId = channelId;
         }
 
-        public Bitmap Picture()
+        public Image Picture()
         {
-            return new (_client.Get($"/ISAPI/Streaming/channels/{_channelId}/picture?snapShotImageType=JPEG"));
+            return Image.Load(
+                _client.Get($"/ISAPI/Streaming/channels/{_channelId}/picture?snapShotImageType=JPEG"),
+                new JpegDecoder()
+            );
         }
     }
 }
