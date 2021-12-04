@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segadora.Hikvision.ISAPI", "Segadora.Hikvision.ISAPI\Segadora.Hikvision.ISAPI.csproj", "{D854E480-0F3E-4C31-96B8-8FD16F958347}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Segadora.Hikvision.ISAPI.Tests", "Segadora.Hikvision.ISAPI.Tests\Segadora.Hikvision.ISAPI.Tests.csproj", "{7C05FFDE-C838-4556-B343-DCBB5C21A4C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D854E480-0F3E-4C31-96B8-8FD16F958347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D854E480-0F3E-4C31-96B8-8FD16F958347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D854E480-0F3E-4C31-96B8-8FD16F958347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D854E480-0F3E-4C31-96B8-8FD16F958347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C05FFDE-C838-4556-B343-DCBB5C21A4C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C05FFDE-C838-4556-B343-DCBB5C21A4C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C05FFDE-C838-4556-B343-DCBB5C21A4C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C05FFDE-C838-4556-B343-DCBB5C21A4C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
